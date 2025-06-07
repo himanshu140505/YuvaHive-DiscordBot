@@ -5,6 +5,7 @@ with open('private.txt', 'r') as f:
     line = f.readline()
     api_key = line.split('=')[1].strip().strip("'")
 
+
 intents = discord.Intents.default()
 intents.message_content = True
 
