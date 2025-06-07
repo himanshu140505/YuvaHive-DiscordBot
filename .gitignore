@@ -10,6 +10,7 @@ __pycache__/
 # Distribution / packaging
 .Python
 private.txt
+disbot/
 build/
 develop-eggs/
 dist/
